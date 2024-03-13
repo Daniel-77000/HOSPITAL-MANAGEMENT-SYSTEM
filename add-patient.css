@@ -1,0 +1,75 @@
+.tabcontent{
+    padding: 0px 0px;
+    border-top: none;
+    margin: 0;
+}
+td{
+    font-size: bolder;
+    display: inline-block;
+}
+#bookAppointmentCont {
+    background-color: #ddd;
+    color: #000;
+  }
+
+  button[type="submit"] {
+    margin: 20px;
+    background-color: #04b10a;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 15%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+  
+  #bookAppointmentCont button:hover {
+    cursor: pointer;
+  }
+  label {
+    margin: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input {
+    margin:20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 4px;
+  }
+
+  input[type=text], input[type=password], input[type=date], input[type=number], input[type=time] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #ddd;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2) inset;
+      border-radius: 4px;
+  }
+
+  input[type=text]{
+    margin-left: 40px;
+  }
+
+  input[type=date]{
+    margin-left: 55px;
+  }
+
+  input[type=time]{
+    margin-left: 25px;
+  }
+  
+  .reset{
+    height: 35px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+width: 15%;
+  }

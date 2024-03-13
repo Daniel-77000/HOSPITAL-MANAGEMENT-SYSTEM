@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    position: relative;
+    width: 100%;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    color: #0f0b50;
+    border-bottom: 2px solid #500b0b;
+}
+
+.sidebar {
+position: absolute;
+top: 0;
+left: 0;
+width: 250px;
+background-color: #f4eeee;
+padding: 50px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+border-right: 2px solid #f1f1f1;
+transition: .3s;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 60px;
+}
+.sidebar--items a,
+.sidebar--bottom-items a {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+font-size: 1.1rem;
+color: #000;
+padding: 10px;
+border-radius: 10px;
+}
+
+.sidebar--items a:hover,
+.sidebar--bottom-items a:hover {
+background-color: #5073fb;
+color: #fff;
+}
+section {
+    position: relative;
+    width: 100%;
+margin-left: 300px;
+margin-top: 20px;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.doctors--cards {
+    display: flex;
+    gap: 20px;
+}
+
+.doctor--card {
+    padding: 20px;
+    border-radius: 20px;
+    height:80px;
+    color: #000;
+    transition: .3s;
+    border: 2px solid #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .8rem;
+    position: fixed;
+}
+
+.doctor--card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img--box--cover {
+    border: 1px solid #5073fb;
+    padding: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.img--box {
+    position: relative;
+    width: 71px;
+    height: 71px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.button1{
+    color: rgb(3, 0, 0);
+    background-color:blur(19px);
+    height: 49px;
+    padding: 50px;
+    border-radius: 20px;
+    transition: .3s;
+    display: inline-block;
+    margin-right: 10px;
+    border: 2px solid #858282;
+    align-items: center;
+}
